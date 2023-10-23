@@ -10,16 +10,16 @@ use Techcouchits\Genie\Models\Payment;
 
 class GenieController extends Controller
 {
-    public function geniepayment(Request $request)
+    public function geniepayment($payment, $ref)
     {
         $apikey = env("GENIE_API");
         $redirecturl = env("GENIE_REDIRECT_URL");
-        $amount = $request->amount * 100;
+        $amount = $payment * 100;
 
-        if ($request->reference == null) {
+        if ($ref == null) {
             $reference = Uuid::uuid4();
         } else {
-            $reference = $request->reference;
+            $reference = $ref;
         }
 
         Payment::create($request->all());
