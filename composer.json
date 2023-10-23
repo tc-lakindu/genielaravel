@@ -5,8 +5,8 @@
     "require": {
         "ramsey/uuid": "^4.7",
         "yoeunes/toastr": "^2.3.0",
-        "php": "^8.2",
-        "laravel/framework": "^10.10"
+        "php": "^8.0",
+        "laravel/framework": "^10.0"
     },
     "license": "MIT",
     "autoload": {
