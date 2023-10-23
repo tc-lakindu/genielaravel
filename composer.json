@@ -20,5 +20,5 @@
             "email": "lakindu.w@techcouchits.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
