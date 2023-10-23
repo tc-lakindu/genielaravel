@@ -31,7 +31,7 @@ Update Service Provider (config/app.php)
 Redirect to below route with Payment amount and reference
 
 ```php
-Controller
+//Controller
 return redirect(amount,reference);
 ```
 
