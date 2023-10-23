@@ -1,0 +1,24 @@
+{
+    "name": "techcouchits/genie",
+    "description": "Dialog Genie Payment gateway",
+    "type": "library",
+    "require": {
+        "ramsey/uuid": "^4.7",
+        "yoeunes/toastr": "dev-master",
+        "php": "^8.2",
+        "laravel/framework": "^10.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Techcouchits\\Genie\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lakindu Wickramasinghe",
+            "email": "lakindu.w@techcouchits.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
