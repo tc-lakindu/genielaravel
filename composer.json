@@ -9,6 +9,13 @@
         "laravel/framework": "^10.0"
     },
     "license": "MIT",
+    "keywords": [
+        "php",
+        "laravel",
+        "payment gateway integration",
+        "Dialog genie IPG"
+
+    ],
     "autoload": {
         "psr-4": {
             "Techcouchits\\Genie\\": "src/"
@@ -20,5 +27,12 @@
             "email": "lakindu.w@techcouchits.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Techcouchits\\Genie\\GenieIpgServiceProvider"
+            ]
+        }
+    }
 }
