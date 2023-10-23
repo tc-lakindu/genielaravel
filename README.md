@@ -26,6 +26,12 @@ Update Service Provider (config/app.php)
     ])->toArray(),
 ```
 
+Run Migration
+
+```bash
+php artisan migrate
+```
+
 ## Usage
 
 Redirect to below route with Payment amount and reference
